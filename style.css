@@ -1,0 +1,81 @@
+/* Estilo geral */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container principal */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.perfil-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 3px solid #0073e6;
+}
+
+header h1 {
+    font-size: 28px;
+    margin: 10px 0 5px;
+}
+
+header h2 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #555;
+}
+
+/* Seções */
+section {
+    margin-bottom: 25px;
+}
+
+section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #0073e6;
+    border-left: 4px solid #0073e6;
+    padding-left: 10px;
+}
+
+/* Lista de habilidades */
+.habilidades ul {
+    list-style: none;
+    padding: 0;
+}
+
+.habilidades li {
+    background: #eef5ff;
+    margin: 6px 0;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+/* Links */
+a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
