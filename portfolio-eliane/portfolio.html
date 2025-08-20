@@ -7,12 +7,19 @@
   <title>Portfólio - Eliane Lucas</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/0798a149f2.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
+  <!-- Botão hambúrguer -->
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
   <div class="container">
-    <aside class="sidebar">
+    <aside class="sidebar" id="sidebar">
       <img src="img/profile.png" alt="Eliane Lucas" class="profile-pic" />
       <h2>Eliane Lucas</h2>
       <p class="title">Desenvolvedora Frontend</p>
@@ -24,10 +31,10 @@
       </ul>
 
       <nav class="menu">
-        <a href="index.html" class=""><i class="fas fa-home"></i> Início</a>
+        <a href="index.html"><i class="fas fa-home"></i> Início</a>
         <a href="portfolio.html" class="active"><i class="fas fa-briefcase"></i> Portfólio</a>
-        <a href="aboutme.html" class=""><i class="fas fa-user"></i> Sobre mim</a>
-        <a href="contato.html" class=""><i class="fas fa-envelope"></i> Contato</a>
+        <a href="aboutme.html"><i class="fas fa-user"></i> Sobre mim</a>
+        <a href="contato.html"><i class="fas fa-envelope"></i> Contato</a>
       </nav>
 
       <div class="social-icons">
@@ -40,7 +47,7 @@
     <main class="main-content">
       <header>
         <h1>Portfólio</h1>
-        <p class="subtitle">Projetos em destaque</p>
+        <p class="subtitle">Aqui estão alguns dos projetos que desenvolvi ao longo do curso de Frontend no Instituto São Paio, explorando HTML, CSS e JavaScript.</p>
       </header>
 
       <section class="gallery">
@@ -59,10 +66,28 @@
             <p>Flexbox layout com responsividade.</p>
           </div>
         </a>
+        <a href="https://https://eliluccas5.github.io/jogodavelha" class="project">
+          <img src="img/projeto3.jpg" alt="Projeto 3" />
+          <div class="project-info">
+            <h3>Jogo Da Velha</h3>
+            <p>Joguinho da velha simples, desenvolvido com HTML, CSS e JS.</p>
+          </div>
+        </a>
+
+        <a href="https://eliluccas5.github.io/jogos" class="project">
+          <img src="img/projeto4.jpg" alt="Projeto 4" />
+          <div class="project-info">
+            <h3>Jogo da Memória </h3>
+            <p>Joguinho simples, desenvolvido com HTML, CSS e JS</p>
+          </div>
+        </a>
 
       </section>
     </main>
   </div>
+
+  <!-- Script externo -->
+  <script src="js/script.js"></script>
 </body>
 
 </html>
